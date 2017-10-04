@@ -1,0 +1,33 @@
+body{
+  background-image: url("./../background.jpg");
+  background-size: cover;
+}
+.main{
+width: 100vw;
+height: 100vh;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.title{
+grid-column: 1 / 7;
+grid-row: 2 / 3;
+}
+
+.link{
+color: blue;
+}
+.link:visited{
+  color: purple;
+}
+
+.picture3_4_5{
+grid-column: 1 / 7;
+grid-row: 3 / 4;
+}
+
+.picture1_2{
+grid-column: 1 / 7;
+grid-row: 4 / 5;
+}
